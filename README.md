@@ -52,18 +52,10 @@ Currently, there are multiple community events hosted in multiple platforms, mak
 The project currently does the following things.
 
 - Scrapes events from facebook events, understand their context and store in the the Cloudant Database.
-- Give event recommendations to users based on their past preferences and event popularity
-- Allow users to host and create their own events 
+- Give event recommendations to users based on their past preferences and event popularity.
+- Allow users to host and create their own events.
 
-## Getting started
-
-In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
-
-- [sample-react-app](./sample-react-app/)
-- [sample-angular-app](./sample-angular-app/)
-- [Explore other projects](https://github.com/upkarlidder/ibmhacks)
-
-## Live demo
+![11c039fe23e1a23c5a569680](https://user-images.githubusercontent.com/43481505/192821624-af90f650-3e68-4f68-8631-ef3d7a864951.jpg)
 
 ## Built with
 
@@ -76,8 +68,12 @@ In this section you add the instructions to run your project on your local machi
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-
 ## Authors
+
+- Kaistha, Tushar
+- Khanna, Pareen
+- Sun, David
+- Wei, Xiaomiao
 
 ## License
 

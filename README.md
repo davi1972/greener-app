@@ -12,25 +12,22 @@
   - [The architecture](#the-architecture)
   - [Long description](#long-description)
   - [Project roadmap](#project-roadmap)
-  - [Getting started](#getting-started)
-  - [Live demo](#live-demo)
   - [Built with](#built-with)
   - [Contributing](#contributing)
-  - [Versioning](#versioning)
   - [Authors](#authors)
   - [License](#license)
-  - [Acknowledgments](#acknowledgments)
 
 ## Short description
 
-Greener is an application made for people who love the earth to meet others like them. Host and join events that bring for the power of community to solve enviromental problem, one event at a time.
+Greener is an application made for people who love the earth - to help them meet others like them! Host and join events that bring forth the power of the community to solve environmental problems, one event at a time.
 
 ### What's the problem?
 
+Go Green is a motto that is slowly transitioning into a way of life for many people across continents. Everyone is aware of sustainable practices these days and wants to do their bit for the environment. But no social platform is available for existing or aspiring environmentalists. This makes it hard for people to stay motivated to Go Green due to the unavailability of public support.
 
 ### How can technology help?
 
-Grener brings the community by providing a platform to host and join events that help save the environment. Greener help recommends these events to users by taking into account the users preferences and the popularity of the event. 
+Greener brings the community together by providing a platform to host and join events that help save the environment. Greener helps recommends these events to users by taking into account the users' preferences and the popularity of the events. 
 
 ### The idea
 
@@ -38,6 +35,7 @@ Currently, there are multiple community events hosted in multiple platforms, mak
 
 ## Demo video
 
+https://youtu.be/a9vU6QQGIlI
 
 ## The architecture
 
@@ -46,6 +44,11 @@ Currently, there are multiple community events hosted in multiple platforms, mak
 3. Our Recommendation System that is deployed in IBM Cloud Functions act as the backed of the Greener app.
 
 ## Long description
+
+According to a new study by the University of Gothenburg, most people are convinced they’re more eco-friendly than their friends and neighbours. This stems from the belief that “only I am doing my bit” to care for the environment. But all these do-good-ers need a platform that connects them to other people practicing environmentally friendly habits. We want the majority to know that Greener is where you realise the eco-friendly population is much larger than you think. 
+The Greener UI is based on web technology and it's multi-platform supported. The app can not only be easily packaged as an iOS or Android application for mobiles, but can also be deployed as a website. Users are able to access it via all platforms with all screen sizes. Greener Ul adapts its layout reactively according to the user's device, providing a consistent and enjoyable user experience.
+We use customized algorithms - an event scraping tool in Python, IBM NLU classification, and a recommendation system based on reinforcement learning - that help suggest the list of events to people based on their preferences, what sustainable level they consider themselves at, location, and peer circle’s interests. It all comes together with the help of IBM Cloud Functions by leveraging the different actions, triggers and APIs. The events can come from NGO websites, Facebook, Twitter, or the users themselves, who may organize their own green events to boost engagement and promote eco-friendly habits. The organizations we look to partner with may also provide minor incentives for attending events, which are endorsements of eco-friendly organizations that give these businesses visibility and a potential customer pool.
+We want to promote Greener as a platform because saving our earth is a collective task that becomes fun and efficient when done together!
 
 ## Project roadmap
 

@@ -1,0 +1,9 @@
+{
+    "page_load_wait_seconds": 10,
+    "element_load_wait_seconds": 15,
+    "num_links": 7,
+    "scroll_limit": 0,
+    "start_at_link_num": 1,
+    "pool_size": 7,
+    "event_search_keyword": "volunteer"
+}

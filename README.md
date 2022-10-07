@@ -40,7 +40,7 @@ https://youtu.be/a9vU6QQGIlI
 ## The architecture
 
 1. Our scraper process crawls Facebook events and gets a list of events related to volunteering.
-2. Watson NLP API categorizes the information from the event descriptions, which we tag the events with and then process into our Cloudant database.
+2. Watson NLU API categorizes the information from the event descriptions, which we tag the events with and then process into our Cloudant database.
 3. Our Recommendation System that is deployed in IBM Cloud Functions acts as the backend of the Greener app.
 4. Our frontend is deployed on IBM Cloud Object Storage (COS).
 
@@ -53,7 +53,7 @@ We want to promote Greener as a platform because saving our earth is a collectiv
 
 ## Project roadmap
 
-The project currently does the following things.
+The project currently does the following things:
 
 - Scrapes events from facebook events, understand their context and store in the the Cloudant Database.
 - Give event recommendations to users based on their past preferences and event popularity.
@@ -63,10 +63,10 @@ The project currently does the following things.
 
 ## Built with
 
-- [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
-- [IBM Cloud Functions](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The compute platform for handing logic and recommendation System
-- [IBM Watson NLP](https://www.ibm.com/hk-en/cloud/watson-natural-language-understanding) 
-- [React](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+- [IBM Cloudant](https://cloud.ibm.com/catalog/services/cloudant) - The NoSQL database used
+- [IBM Cloud Functions](https://cloud.ibm.com/functions) - The compute platform for handing logic and recommendation system
+- [IBM Watson NLU](https://cloud.ibm.com/catalog/services/natural-language-understanding) - The service used for classifying events
+- [Vue]([http://www.dropwizard.io/1.0.2/docs/](https://vuejs.org/)) - The web framework used
 
 ## Contributing
 
